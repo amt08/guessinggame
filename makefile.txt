@@ -1,6 +1,0 @@
-README.md:
-	touch README.md
-	echo "The title of the project is Guessing Game" > README.md
-	echo "Date and time when makefile is run is " $date >> README.md
-	echo "Number of lines of code in the guessinggame.sh file is " $(cat guessinggame.sh | wc -l) >> README.md
-
